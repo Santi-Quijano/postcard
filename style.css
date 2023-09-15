@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&display=swap");
+body {
+  background-color: #151515;
+  font-family: "Handlee", cursive;
+}
+.titlepost img {
+  float: right;
+  width: 60px;
+  position: relative;
+  top: -15px;
+}
+.postcard {
+  background-color: white;
+  margin: 150px auto;
+  width: 500px;
+  padding: 10px;
+  height: 350px;
+}
+.paragraphs {
+  font-size: 20px;
+  float: left;
+  width: 50%;
+}
+.some-texts {
+  float: right;
+  width: 50%;
+}
+.some-texts input[type="text"] {
+  font-family: "Handlee", cursive;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: gray;
+  padding: 5px;
+}
+input {
+  font-size: 20px;
+}
+footer {
+  clear: both;
+  text-align: center;
+}
+
+footer input[type="submit"] {
+  border: none;
+  border-bottom: 1px solid gray;
+  background-color: darkgray;
+  font-family: "Handlee", cursive;
+}
